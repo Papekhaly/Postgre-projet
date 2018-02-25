@@ -14,4 +14,4 @@ Pour vérifize votre restauration ouvrir mysql sur votre terminal "mysql -user -
 Script de gestion des backups les plus anciens : rétention .sh
 Ce script va vous permettre de supprimer les backups de vos choix, de plus d'un jour, deux ou comme vous le souhaitez.
 le script actuel supprime les backups vieux de 4 jours, donc en modifiant "+4" vous choisissez le nombre de jours que vous voulez.
-ensuite coller le chemin du backup que vous souhaiter supprimer ou le dossier contenant plusieurs backups.
+ensuite coller le chemin du backup que vous souhaiter supprimer ou le dossier contenant plusieurs backups à la place du chemin présent.
