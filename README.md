@@ -5,3 +5,9 @@ Script de sauvegarde de bases de données : save_dbs2.sh
 Tout dabord s'assurer d'avoir installer les pré-requis (apache2, mysql, phpmyadmin) se référer à la documentation.
 Ouvrir le script dans un éditeur de texte, tout dabord l'utilisateur "user" à la deuxième ligne est "root" par défaut changer le en fonction du votre. Le changer aussi au niveau de la sixième ligne "mysqldump -uroot" root est mis par défaut le remplacer par le votre.
 NB: Si vous avez pas changer votre nom d'utilisateur au départ, il reste "root" le mot de passe aussi donc vous n'aurez aucune modification à faire.
+
+
+Script de restauration d'une base précise: restauration.sh
+
+Pour se script remplacer tout les endroids avec "baseArestaurer" par c'elle que vous voulez restaurer.
+ensuite copier le chemin du backup de cette base "mysql baseArestaurer < chemin du backup".
