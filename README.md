@@ -1,13 +1,16 @@
 # Postgre-projet
 
-Script de sauvegarde de bases de données : save_dbs2.sh
+Script de sauvegarde de bases de données : save _dbs 2.sh
+Tout d'abord s'assurer d'avoir installé les prérequis (apache2, mysql, Phpmyadmin) se référer à la documentation.
+Ouvrir le script dans un éditeur de texte, tout d'abord l'utilisateur "usé" à la deuxième ligne est "root" par défaut changer l'en fonction du vôtre. Le changer aussi au niveau de la sixième ligne "mysqldump -uroot" root est mis par défaut le remplacer par le vôtre.
+NB: Si vous n'avez pas changé votre nom d'utilisateur au départ, il reste "root" le mot de passe aussi donc vous n'aurez aucune modification à faire.
 
-Tout dabord s'assurer d'avoir installer les pré-requis (apache2, mysql, phpmyadmin) se référer à la documentation.
-Ouvrir le script dans un éditeur de texte, tout dabord l'utilisateur "user" à la deuxième ligne est "root" par défaut changer le en fonction du votre. Le changer aussi au niveau de la sixième ligne "mysqldump -uroot" root est mis par défaut le remplacer par le votre.
-NB: Si vous avez pas changer votre nom d'utilisateur au départ, il reste "root" le mot de passe aussi donc vous n'aurez aucune modification à faire.
+Script de restauration d'une base précise: restauration sh
+Pour ce script remplaçait tous les endroits avec "basearestaurer" par celle que vous voulez restaurer.
+ensuite copier le chemin du backup de cette base "mysql basearestaurer chemin du backup".
 
 
-Script de restauration d'une base précise: restauration.sh
-
-Pour se script remplacer tout les endroids avec "baseArestaurer" par c'elle que vous voulez restaurer.
-ensuite copier le chemin du backup de cette base "mysql baseArestaurer < chemin du backup".
+Script de gestion des backups les plus anciens : rétention .sh
+Ce script va vous permettre de supprimer les backups de vos choix, de plus d'un jour, deux ou comme vous le souhaitez.
+le script actuel supprime les backups vieux de 4 jours, donc en modifiant "+4" vous choisissez le nombre de jours que vous voulez.
+ensuite coller le chemin du backup que vous souhaiter supprimer ou le dossier contenant plusieurs backups.
