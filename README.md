@@ -1,5 +1,7 @@
 # Postgre-projet
 
+POUR LANCER CHAQUE SCRIPT SE PLACER DANS LE DOSSIER LES CONTENANT ET FAIRE LA COMMANDE "sh script.sh"
+
 Script de sauvegarde de bases de données : save _dbs 2.sh
 Tout d'abord s'assurer d'avoir installé les prérequis (apache2, mysql, Phpmyadmin) se référer à la documentation, ainsi que " apt-get install mysql -client" ainsi que les paquets de compression "tar et gzip2".
 Ouvrir le script dans un éditeur de texte, tout d'abord l'utilisateur "usé" à la deuxième ligne est "root" par défaut changer l'en fonction du vôtre. Le changer aussi au niveau de la sixième ligne "mysqldump -uroot" root est mis par défaut le remplacer par le vôtre.
