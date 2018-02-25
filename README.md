@@ -1,6 +1,6 @@
 # Postgre-projet
 
-POUR LANCER CHAQUE SCRIPT SE PLACER DANS LE DOSSIER LES CONTENANT ET FAIRE LA COMMANDE "sh script.sh"
+POUR LANCER CHAQUE SCRIPT SE PLACER DANS LE DOSSIER LES CONTENANTS ET FAIRE LA COMMANDE "sh script.sh"
 
 Script de sauvegarde de bases de données : save _dbs 2.sh
 Tout d'abord s'assurer d'avoir installé les prérequis (apache2, mysql, Phpmyadmin) se référer à la documentation, ainsi que " apt-get install mysql -client" ainsi que les paquets de compression "tar et gzip2".
